@@ -30,8 +30,10 @@
             <ColumnDefinition/>
 
         </Grid.ColumnDefinitions>
-        <TextBlock Grid.Row="0" Grid.Column="0"  Grid.ColumnSpan="4" x:Name="textLabel" />
-        
+        <TextBlock Grid.Row="0" Grid.Column="0"  Grid.ColumnSpan="4" x:Name="textLabel" ><InlineUIContainer>
+                <Border BorderBrush="Black" BorderThickness="2" Height="71" Width="390" Background="#FFF1DEDE" VerticalAlignment="Top" Padding="20" CornerRadius="20" HorizontalAlignment="Left"/>
+            </InlineUIContainer></TextBlock>
+
         <Button Grid.Column="0" Grid.Row="1" FontSize="20" BorderBrush="#FF0E0D0B">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
